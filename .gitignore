@@ -1,0 +1,52 @@
+# Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# SQLite databases & test DBs
+*.db
+*.db.bak
+*.sqlite3
+
+# Uploads directory
+backend/uploads/
+
+# Node & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Large Datasets & Ingestion Data
+backend/data/
+data/raw/
+data/nyc311_raw/
+backend/data/nyc311_raw/
+backend/data/evaluation/cache/
+*.csv
+*.parquet
+*.jsonl
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
